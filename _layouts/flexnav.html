@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> {{ page.title }}
+	</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500|Raleway:300,400,500,700,900" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="/assets/css/flexnav.css">
+	{% if page.theme_css %}
+	{% for themecss_file in page.theme_css %}
+	<link href='{{ site.baseurl }}/assets/css/{{ themecss_file }}.css' type="text/css" rel="stylesheet">
+	{% endfor %}
+	{% endif %}
+	{% if page.custom_css %}
+	{% for css_file in page.custom_css %}
+	<link href='{{ site.baseurl }}/css/{{ css_file }}.css' type="text/css" rel="stylesheet">
+	{% endfor %}
+	{% endif %}
+</head>
+<body>
+	<nav>
+		{% include nav.html %}
+	</nav>
+	<main class="main">
+		<h1>{{ page.title }}</h1>
+		{{ content }}
+	</main>
+	<footer>
+		Footer
+	</footer>
+</body>
+</html>
