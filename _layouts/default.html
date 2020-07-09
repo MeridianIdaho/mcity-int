@@ -37,6 +37,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <!-- Page JS -->
-    <script src="{{ site.baseurl }}/assets/js/page.js"></script>
+
+    {% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+        <script src="{{ site.baseurl }}/js/{{ js_file }}.js"></script>
+    {% endfor %}
+    {% endif %}
 </body>
 </html>
