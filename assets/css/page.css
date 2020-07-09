@@ -1,0 +1,120 @@
+p {
+	font-size: 1.2em;
+}
+
+h1 {
+	padding-top: 1em;
+}
+
+.mcity {
+	color: #004b8d;
+}
+
+header {
+	background-color: #bbbbbc;
+	height: 150px;
+	border-bottom: 10px solid #004b8d;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+	color: #004b8d;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+	text-decoration: underline;
+	color: #004b8d;
+	background-color: #e1f0ff;
+}
+
+.logo{
+	height: 100px;
+}
+
+.footer-logo {
+	height: 80px;
+}
+
+.banner{
+	height: 150px;
+	background-image: url('');
+	background-size: cover;
+	background-position: center -100px;
+}
+
+.callOuts{
+	border: 1px solid #d7d8da;
+}
+
+.callOuts-place {
+	border: none;
+}
+
+.callOuts img{
+	height: 80px;
+	width: auto;
+}
+
+/*Bottom Area*/
+.footer{
+	border-top: 10px solid #004b8d;
+	background-color: #8c8c8c;
+	min-height: 250px;
+	color: #fff;
+	font-size: .8rem;
+}
+
+.footer p{
+	font-size: 1.2rem;
+}
+
+.footer h5{
+	font-size: 1.8rem;
+	color: #eeb211;
+}
+
+.footer a {
+	color: #004b8d;
+}
+
+.w-60{
+	width: 60%!important;
+}
+
+.w-30{
+	width: 30%!important;
+}
+
+.w-20{
+	width: 20%!important;
+}
+
+.flex-equal {
+	flex: 1;
+}
+
+/*Responsive code*/
+
+@media (min-width: 576px) {
+	.banner{
+		height: 200px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.banner{
+		height: 300px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.banner{
+		height: 400px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
