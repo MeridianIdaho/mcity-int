@@ -62,6 +62,12 @@ header {
 	width: auto;
 }
 
+.blue-highlight {
+	border-left: 12px solid #004b8d; 
+	background-color: #eaf9fe; 
+	padding: 10px;
+}
+
 /*Bottom Area*/
 .footer{
 	border-top: 10px solid #004b8d;
