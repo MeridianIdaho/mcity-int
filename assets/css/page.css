@@ -21,7 +21,11 @@ header {
 }
 
 .navbar-light .navbar-nav .show>.nav-link {
-	color: #004b8d;
+	color: #00315c;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #00315c;
 }
 
 .dropdown-item:focus, .dropdown-item:hover{
