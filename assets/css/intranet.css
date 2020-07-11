@@ -124,21 +124,23 @@ ul#sidebar-nav-1 {
 }
 
 .left-menu {
-	border-right: 1px solid rgba(0,0,0,.1)
+	border-right: 1px solid rgba(0,0,0,.1);
 }
 
 /*end Sidebar*/
 
 /*Responsive code*/
 
+@media (max-width: 576px {
+	.left-menu {
+		border-right: 0;	
+	}
+}
+
 @media (min-width: 576px) {
 	.banner{
 		height: 200px;
 	}
-	.left-menu {
-		border-right: 0;
-		border-bottom: 1px solid rgba(0,0,0,.1);
-	
 }
 
 /*Medium devices (tablets, 768px and up)*/
