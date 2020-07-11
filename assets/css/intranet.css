@@ -123,6 +123,10 @@ ul#sidebar-nav-1 {
 	float: right;
 }
 
+.left-menu {
+	border-right: 1px solid rgba(0,0,0,.1)
+}
+
 /*end Sidebar*/
 
 /*Responsive code*/
