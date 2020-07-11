@@ -132,7 +132,7 @@ ul#sidebar-nav-1 {
 
 /*Responsive code*/
 
-@media (max-width: 767px {
+@media (max-width: 767px) {
 	.left-menu {
 		border-right: none;	
 	}
