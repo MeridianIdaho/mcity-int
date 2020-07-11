@@ -15,8 +15,8 @@ h1 {
 }
 
 header {
-	background-color: #bbbbbc;
-	height: 150px;
+	background-color: #d2d2d2;
+	min-height: 150px;
 	border-bottom: 10px solid #004b8d;
 }
 
