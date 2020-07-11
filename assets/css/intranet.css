@@ -134,7 +134,7 @@ ul#sidebar-nav-1 {
 
 @media (max-width: 767px {
 	.left-menu {
-		border-right: 0;	
+		border-right: none;	
 	}
 }
 
