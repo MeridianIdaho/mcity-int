@@ -114,6 +114,10 @@ header {
 	list-style-type: none;
 }
 
+ul#sidebar-nav-1 {
+	padding-inline-start: 0px;
+}
+
 .hamburger {
 	height: 50px;
 	float: right;
