@@ -113,6 +113,12 @@ header {
 
 #sidebar-nav-1 li {
 	list-style-type: none;
+	line-height: 1.1em;
+	margin-bottom: 0.8em;
+}
+
+#sidebar-nav-1 li:hover {
+	background-color: #efedf3;
 }
 
 ul#sidebar-nav-1 {
